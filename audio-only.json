@@ -1,0 +1,65 @@
+{
+  "name": "audio-only",
+  "account_id": "1305620570001",
+  "brightcove_standard": false,
+  "archive_master": true,
+  "keep_renditions": true,
+  "renditions": [
+    {
+      "media_type": "video",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 64,
+      "audio_channels": 2,
+      "skip_video": true,
+      "keyframe_rate": 0.5
+    },
+    {
+      "media_type": "video",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_channels": 2,
+      "skip_video": true,
+      "keyframe_rate": 0.5
+    },
+    {
+      "media_type": "video",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 256,
+      "audio_channels": 2,
+      "skip_video": true,
+      "keyframe_rate": 0.5
+    },
+    {
+      "media_type": "audio",
+      "format": "ts",
+      "audio_codec": "aac",
+      "audio_bitrate": 64,
+      "audio_channels": 2,
+      "type": "segmented",
+      "skip_video": true
+    },
+    {
+      "media_type": "audio",
+      "format": "ts",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "audio_channels": 2,
+      "type": "segmented",
+      "skip_video": true
+    },
+    {
+      "media_type": "audio",
+      "format": "ts",
+      "audio_codec": "aac",
+      "audio_bitrate": 256,
+      "audio_channels": 2,
+      "type": "segmented",
+      "skip_video": true
+    }
+  ],
+  "packages": [],
+  "description": "Audio tracks to cover all devices ***CURRENTLY NOT WORKING - DO NOT USE***"
+}
