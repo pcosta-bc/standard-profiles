@@ -1,0 +1,58 @@
+{
+  "name": "single-bitrate-standard",
+  "account_id": 1305620570001,
+  "brightcove_standard": false,
+  "archive_master": true,
+  "keep_renditions": true,
+  "renditions": [
+    {
+      "media_type": "video",
+      "reference_id": "mp0",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "video_codec": "h264",
+      "speed": 3,
+      "video_bitrate": 2500,
+      "keyframe_rate": 0.5,
+      "max_frame_rate": 30,
+      "width": 1280,
+      "height": 720,
+      "h264_profile": "main",
+      "h264_bframes": 2
+
+    },
+    {
+      "media_type": "video",
+      "format": "ts",
+      "reference_id": "ts0",
+      "audio_codec": "aac",
+      "audio_bitrate": 128,
+      "video_codec": "h264",
+      "speed": 3,
+      "video_bitrate": 2500,
+      "keyframe_rate": 0.5,
+      "max_frame_rate": 30,
+      "width": 1280,
+      "height": 720,
+      "h264_profile": "main",
+      "h264_bframes": 2
+    },
+    {
+      "media_type": "image",
+      "format": "png",
+      "label": "poster",
+      "width": 640,
+      "height": 360
+    },
+    {
+      "media_type": "image",
+      "format": "png",
+      "label": "thumbnail",
+      "width": 160,
+      "height": 90
+    }
+  ],
+  "packages": [],
+  "description": "Based on the balanced SD defined in phil spreadsheet 4/30"
+}
