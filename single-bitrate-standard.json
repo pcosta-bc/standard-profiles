@@ -4,6 +4,7 @@
   "brightcove_standard": false,
   "archive_master": true,
   "keep_renditions": true,
+  "description": "A simple profile with one bitrate and two formats.",
   "renditions": [
     {
       "media_type": "video",
@@ -20,12 +21,12 @@
       "height": 720,
       "h264_profile": "main",
       "h264_bframes": 2
-
     },
     {
       "media_type": "video",
       "format": "ts",
       "reference_id": "ts0",
+      "type": "segmented",
       "audio_codec": "aac",
       "audio_bitrate": 128,
       "video_codec": "h264",
@@ -53,6 +54,5 @@
       "height": 90
     }
   ],
-  "packages": [],
-  "description": "Based on the balanced SD defined in phil spreadsheet 4/30"
+  "packages": [] 
 }
