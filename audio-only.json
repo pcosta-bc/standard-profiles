@@ -10,7 +10,6 @@
       "format": "mp4",
       "audio_codec": "aac",
       "audio_bitrate": 64,
-      "audio_channels": 2,
       "skip_video": true,
       "keyframe_rate": 0.5
     },
@@ -19,7 +18,6 @@
       "format": "mp4",
       "audio_codec": "aac",
       "audio_bitrate": 128,
-      "audio_channels": 2,
       "skip_video": true,
       "keyframe_rate": 0.5
     },
@@ -28,7 +26,6 @@
       "format": "mp4",
       "audio_codec": "aac",
       "audio_bitrate": 256,
-      "audio_channels": 2,
       "skip_video": true,
       "keyframe_rate": 0.5
     },
@@ -37,7 +34,6 @@
       "format": "ts",
       "audio_codec": "aac",
       "audio_bitrate": 64,
-      "audio_channels": 2,
       "type": "segmented",
       "skip_video": true
     },
@@ -46,7 +42,6 @@
       "format": "ts",
       "audio_codec": "aac",
       "audio_bitrate": 128,
-      "audio_channels": 2,
       "type": "segmented",
       "skip_video": true
     },
@@ -55,11 +50,10 @@
       "format": "ts",
       "audio_codec": "aac",
       "audio_bitrate": 256,
-      "audio_channels": 2,
       "type": "segmented",
       "skip_video": true
     }
   ],
   "packages": [],
-  "description": "Audio tracks to cover all devices ***CURRENTLY NOT WORKING - DO NOT USE***"
+  "description": "Audio tracks to cover all devices. Only for use with the Brightcove Player. Does not work with the legacy Smart Player."
 }
