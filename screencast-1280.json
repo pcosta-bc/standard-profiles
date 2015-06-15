@@ -1,0 +1,67 @@
+{
+  "name": "screencast-1280",
+  "account_id": 1305620570001,
+  "brightcove_standard": false,
+  "archive_master": true,
+  "keep_renditions": true,
+  "description": "A high resolution profile optimized for screencasts of width 1280 pixels.",
+  "renditions": [
+    {
+      "media_type": "video",
+      "reference_id": "mp0",
+      "format": "mp4",
+      "audio_codec": "aac",
+      "audio_bitrate": 96,
+      "video_codec": "h264",
+      "speed": 3,
+      "keyframe_rate": 0.5,
+      "max_frame_rate": 30,
+      "width": 1280,
+      "height": 720,
+      "h264_profile": "main"
+    },
+    {
+      "media_type": "video",
+      "format": "ts",
+      "reference_id": "ts0",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 96,
+      "video_codec": "h264",
+      "keyframe_rate": 0.5,
+      "max_frame_rate": 30,
+      "width": 960,
+      "height": 540,
+      "h264_profile": "baseline"
+    },
+    {
+      "media_type": "video",
+      "format": "ts",
+      "reference_id": "ts1",
+      "type": "segmented",
+      "audio_codec": "aac",
+      "audio_bitrate": 96,
+      "video_codec": "h264",
+      "keyframe_rate": 0.5,
+      "max_frame_rate": 30,
+      "width": 1280,
+      "height": 720,
+      "h264_profile": "main"
+    },
+   {
+      "media_type": "image",
+      "format": "png",
+      "label": "poster",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "media_type": "image",
+      "format": "png",
+      "label": "thumbnail",
+      "width": 160,
+      "height": 90
+    }
+  ],
+  "packages": []
+}
