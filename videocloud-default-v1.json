@@ -167,14 +167,14 @@
     },
     {
       "media_type": "image",
-      "format": "png",
+      "format": "jpg",
       "label": "poster",
       "width": 640,
       "height": 360
     },
     {
       "media_type": "image",
-      "format": "png",
+      "format": "jpg",
       "label": "thumbnail",
       "width": 160,
       "height": 90
