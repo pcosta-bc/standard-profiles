@@ -1,7 +1,7 @@
 {
   "name": "high-resolution",
-  "account_id": 1305620570001,
-  "brightcove_standard": false,
+  "account_id": -1,
+  "brightcove_standard": true,
   "archive_master": true,
   "keep_renditions": true,
   "description": "General purpose settings to deliver high quality content for a wide range content types and screen sizes. Resolutions range from 480x270 to 1920x1080 with a max video bitrate of 4000 kbps.",
