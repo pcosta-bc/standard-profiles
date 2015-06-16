@@ -1,7 +1,7 @@
 {
   "name": "single-bitrate-standard",
-  "account_id": 1305620570001,
-  "brightcove_standard": false,
+  "account_id": -1,
+  "brightcove_standard": true,
   "archive_master": true,
   "keep_renditions": true,
   "description": "A single bitrate delivered in MP4 and HLS format. Output resolution is 1280x720.",
