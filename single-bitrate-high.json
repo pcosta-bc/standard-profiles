@@ -4,7 +4,7 @@
   "brightcove_standard": false,
   "archive_master": true,
   "keep_renditions": true,
-  "description": "A simple profile with one bitrate and two formats.",
+  "description": "A single high quality bitrate delivered in MP4 and HLS format. Output resolution is 1920x1080",
   "renditions": [
     {
       "media_type": "video",
@@ -15,6 +15,8 @@
       "video_codec": "h264",
       "speed": 3,
       "video_bitrate": 3800,
+      "decoder_bitrate_cap": 5892,
+      "decoder_buffer_size": 7856,
       "keyframe_rate": 0.5,
       "max_frame_rate": 30,
       "width": 1920,
@@ -33,6 +35,8 @@
       "video_codec": "h264",
       "speed": 3,
       "video_bitrate": 3800,
+      "decoder_bitrate_cap": 5892,
+      "decoder_buffer_size": 7856,
       "keyframe_rate": 0.5,
       "max_frame_rate": 30,
       "width": 1920,
@@ -42,14 +46,14 @@
     },
     {
       "media_type": "image",
-      "format": "png",
+      "format": "jpg",
       "label": "poster",
-      "width": 640,
-      "height": 360
+      "width": 960,
+      "height": 540
     },
     {
       "media_type": "image",
-      "format": "png",
+      "format": "jpg",
       "label": "thumbnail",
       "width": 160,
       "height": 90
