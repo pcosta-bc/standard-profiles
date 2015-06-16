@@ -1,7 +1,7 @@
 {
   "name": "videocloud-default-v1",
-  "account_id": 1305620570001,
-  "brightcove_standard": false,
+  "account_id": -1,
+  "brightcove_standard": true,
   "archive_master": true,
   "keep_renditions": true,
   "description": "Default profile for Video Cloud accounts. A range of sizes and bitrates to accommodate general video publishing scenarios.",
