@@ -1,9 +1,10 @@
 {
   "name": "audio-only",
-  "account_id": "1305620570001",
-  "brightcove_standard": false,
+  "account_id": -1,
+  "brightcove_standard": true,
   "archive_master": true,
   "keep_renditions": true,
+  "description": "Audio tracks to cover all devices. Only for use with the Brightcove Player. Does not work with the legacy Smart Player.",
   "renditions": [
     {
       "media_type": "video",
@@ -54,6 +55,5 @@
       "skip_video": true
     }
   ],
-  "packages": [],
-  "description": "Audio tracks to cover all devices. Only for use with the Brightcove Player. Does not work with the legacy Smart Player."
+  "packages": []
 }
