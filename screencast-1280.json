@@ -1,7 +1,7 @@
 {
   "name": "screencast-1280",
-  "account_id": 1305620570001,
-  "brightcove_standard": false,
+  "account_id": -1,
+  "brightcove_standard": true,
   "archive_master": true,
   "keep_renditions": true,
   "description": "A high resolution profile optimized for screencasts with 1280 x 720 resolution.",
