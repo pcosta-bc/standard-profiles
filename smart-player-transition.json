@@ -1,7 +1,7 @@
 {
   "name": "smart-player-transition",
-  "account_id": 1305620570001,
-  "brightcove_standard": false,
+  "account_id": -1,
+  "brightcove_standard": true,
   "archive_master": true,
   "keep_renditions": true,
   "description": "General purpose settings to deliver quality content for accounts that use a mixture of Smart Player and Brightcove Player. Resolutions range from 480x270 to 1280x720.",
